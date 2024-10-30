@@ -1,0 +1,13 @@
+[Unit]
+Description=ELEC9609-uwsgi
+After=network.target
+
+[Service]
+ExecStart=/home/ubuntu/Lab-01-Group-06/Backend/startup.sh
+WorkingDirectory=/home/ubuntu/Lab-01-Group-06/Backend
+Restart=always
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target

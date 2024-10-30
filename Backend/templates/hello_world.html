@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, World!</title>
+</head>
+<body>
+{% load static %}
+<p>---</p>
+<a href="../hello_world">Reload</a>
+<p>---</p>
+<a href="../index">Get back</a>
+{#<img src="{% static 'picture.jpg' %}" alt="no pic"/>#}
+<p>---</p>
+<a href="../hello_world/1">TEST 1</a>
+<p>---</p>
+<img src="data:image/png;base64,{{ picture_base64 }}" alt="no pic data"/>
+<h1>{{ test }}</h1>
+<p>---</p>
+<p>{{ test1 }}</p>
+<p>---</p>
+<p>{{ exception }}</p>
+<p>---</p>
+<br/>
+</body>
+</html>
