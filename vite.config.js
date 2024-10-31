@@ -4,5 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Lab-01-Group-06/"
+  base: "/kiadwa.github.io/",
+  build:{
+    target: 'esnext',
+  }
+
+
 })
