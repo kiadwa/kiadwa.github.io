@@ -2,7 +2,7 @@ import { Container, Form, Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-import './PetHelpAIview.css';
+import './PetHelpAIView.css';
 
 function PetHelpAIView() {
     const navigate = useNavigate();
